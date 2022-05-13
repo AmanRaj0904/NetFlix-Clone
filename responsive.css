@@ -1,0 +1,218 @@
+@media only screen and (max-width: 600px) {
+    .container-section .navbar-main .navbar-brand-logo h2 {
+        font-size: 1.4rem;
+        color: var(--main-color);
+        margin-left: .5rem;
+    }
+
+    .container-section .navbar-main .right ul li {
+        list-style-type: none;
+        margin-right: 1rem;
+    }
+
+    .container-section .wrapper .content .hero-title {
+        font-weight: 600;
+        font-size: 2.2rem;
+    }
+
+    .container-section .wrapper .content .hero-para {
+        font-size: 1.4rem;
+        margin: 10px 0 10px 0;
+    }
+
+    .container-section .wrapper .content .hero-description {
+        font-size: 1.3rem;
+        margin-top: 10px;
+        margin-bottom: 13px;
+    }
+
+    .container-section .wrapper .from-section input[type=email] {
+        height: 48px;
+        width: 85%;
+    }
+
+    .container-section .wrapper .from-section button {
+        padding: 12px 40px;
+        margin-top: 20px;
+        background-color: var(--main-color);
+        color: var(--white-color);
+        border: 1px var(--main-color);
+    }
+
+
+    .features-1 .feature-row .feature-right .feature-bg-vid-container {
+        position: absolute;
+        height: 100%;
+        max-width: 73%;
+        max-height: 54%;
+        left: 13%;
+        width: 80%;
+        top: 20%;
+    }
+
+    .features-1 .feature-row .feature-left .feature-title{
+        margin-top: 23px;
+    }
+    .features-1 .feature-row .feature-left .feature-subtitle{
+        margin-top: 25px;
+    }
+    .features-1 .feature-row .feature-right .feature-image {
+        width: 80%;
+    }
+
+    .features-1 .feature-row .feature-right .feature-bg-vid-container .feature-bg-vid {
+        width: 70%;
+    }
+    .features-1 .feature-row {
+        text-align: center;
+    }
+    .feature-2 .feature-2-row .feature-2-left .feature-image{
+        width: 80%;   
+    }
+    .feature-2 .feature-2-row .feature-details{
+        margin-top: 30px;
+    }
+    .feature-3 .feature-img-container img{
+        width: 80%;
+    }
+    .feature-3 .feature-img-container .feature-bg-vid-container .feature-bg-vid{
+        width: 70%;
+    }
+    .feature-3 .feature-img-container .feature-bg-vid-container{
+        position: absolute;
+        height: 100%;
+        max-width: 73%;
+        max-height: 54%;
+        left: 14%;
+        width: 100%;
+        top: 10%;   
+        z-index: 0;
+    }
+    .feature-3 .feature-img-container{
+        text-align: center;
+    }
+
+    .feature-3 .feature-details{
+        margin-top: 20px;
+    }
+    .feature-4 .feature-img-container{
+        text-align: center;
+    }
+    .feature-4 .feature-img-container img{
+        width: 80%;
+    }
+    .container-fluid .from-section{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        flex-direction: column;
+        /* margin-top: 15px; */
+        width: 100%;
+    
+    }
+    .container-fluid .from-section input[type=email] {
+        height: 48px;
+        width: 100%;
+    }
+    .container-fluid .from-section button {
+        padding: 12px 15px;
+        margin-top: 15px;
+        background-color: var(--main-color);
+        color: var(--white-color);
+        border: 1px var(--main-color);
+    }
+    #footer-section .row #footer-title{
+       text-align: center;
+    }
+}
+@media only screen and  (min-width: 600px) and (max-width:950px) {
+    .container-fluid .from-section {
+        flex-direction: column;
+    }
+    .container-fluid .from-section input[type=email] {
+        height: 48px;
+        width: 100%;
+    }
+    .container-fluid .from-section button {
+        padding: 8px 15px;
+        margin-top: 15px;
+        background-color: var(--main-color);
+        color: var(--white-color);
+        border: 1px var(--main-color);
+    }
+
+}
+@media only screen and (min-width: 375px){
+  
+  .container-section .navbar-main .right ul li {
+        list-style-type: none;
+        /* margin-right: 2rem; */
+    }
+    
+    .container-section .navbar-main .right ul li button {
+        padding: 4px 9px;
+        background-color: var(--main-color);
+        font-size: 12px;
+        color: var(--white-color);
+        border: 1px solid var(--main-color);
+    }
+    .container-section .navbar-main .navbar-brand-logo h2 {
+        color: var(--main-color);
+        margin-left: 1.3rem;
+    }
+    .container-section .navbar-main .right ul li select {
+        padding: 4px 7px;
+        margin-left: 1rem;
+        background-color: #000000;
+        color: #ffffff;
+    }
+.features-1 .feature-row .feature-left .feature-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+.features-1 .feature-row .feature-left .feature-subtitle {
+    font-size: 17px;
+    text-align: center;
+}
+
+.feature-2 .feature-2-row .feature-2-right .feature-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature-2 .feature-2-row .feature-2-right .feature-subtitle {
+    font-size: 17px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature-3 .feature-details .feature-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature-3 .feature-subtitle {
+    font-size: 17px;
+    margin: 15px 0;
+    text-align: center;
+}
+.feature-4 .feature-details .feature-title {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.feature-4 .feature-subtitle {
+    font-size: 17px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+}

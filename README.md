@@ -19,9 +19,9 @@ Technologies used - HTML, CSS, BootStrap, JavaScript
 
 <b>Note :</b> The Source Code Of This Website Is Too Lenghty in Responsive Codes Beacause I have Done It for Better Understanding
         by time i will surely make changes for now leave it. 
-        and i am working on Responsivness of This website on exta smaller devices .
+        and i am working on Responsivness of This website on extra smaller devices .
         
  <br>
 <br>       
 
-I have deployed it Shortly on Github itself.
+I Will deployed it Shortly on Github itself.
